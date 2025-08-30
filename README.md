@@ -6,14 +6,23 @@ With the continuous evolution of integrated circuit technology toward higher com
 
 # Requirements
 Python >= 3.9
+
 PyTorch 2.0.1 (with CUDA 11.8 support)
+
 PyTorch Geometric 2.3.1
+
 torch-scatter 2.1.2
+
 torch-sparse 0.6.18
+
 NumPy 1.22.4
+
 pandas 1.4.2
+
 scikit-learn 1.6.1
+
 tqdm 4.65.0
+
 matplotlib 3.5.1 
 
 # Usage
