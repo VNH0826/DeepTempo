@@ -20,7 +20,11 @@ matplotlib 3.5.1
 python train.py --task_type prob -- model DeepTempo --batch_size 32 --split_file 0.05-0.05-0.9 --layer_num 9
 ## Explanation:
 --task prob: Select signal probability prediction(SPP) task.
+
 --model DeepTempo: Use DeepTempo model.
+
 --batch_size 32: Set the batch size required for training.
+
 --split_file 0.05-0.05-0.9: Indicates the data split proportions for training, validation, and testing.
---layer_num 9: Set the number of layers of the AIGer network to 9..
+
+--layer_num 9: Set the number of layers of the DeepTempo network to 9.
